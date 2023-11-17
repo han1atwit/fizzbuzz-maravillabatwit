@@ -15,7 +15,6 @@ def run_tests():
     for number in test_numbers:
         result = fizz_buzz(number)
         print(f"Input: {number}, Result: {result}")
-        # Add additional assertions or checks as needed
 
 if __name__ == "__main__":
     run_tests()
